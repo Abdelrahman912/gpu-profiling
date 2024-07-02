@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+			
+            "label": "Run Julia with nsys",
+            "command": "nsys",
+            "args": [
+                "launch",
+                "julia",
+				"-e",
+				"--project",
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Profile Julia command with nsys"
+        }
+	]
+}
